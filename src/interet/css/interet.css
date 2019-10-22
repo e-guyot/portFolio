@@ -1,0 +1,87 @@
+img{
+	height: 50px;
+}
+
+.ic_container{
+    vertical-align:baseline;
+    margin:10px;
+    position:relative;
+    /*-moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    -khtml-border-radius:10px;
+    -moz-box-shadow: 0 1px 3px #888;
+    -webkit-box-shadow: 0 1px 3px #888;*/
+}
+
+.interet-portfolio div div{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.interet-portfolio div div img{
+    width: 200px;
+}
+
+.interet-portfolio div div h2{
+    color: #34FF19 !important;
+}
+
+.interet-portfolio div div h2 span{
+    color: #B20077 !important;
+}
+
+.overlay{
+    opacity:0.3;
+    position:absolute;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    display:none;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+}
+.ic_caption{
+    position:absolute;    
+    opacity:0.6;   
+    overflow:hidden;
+    margin:0px;
+    padding:0px;
+    left:0px;
+    right:0px;
+    cursor:default;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=60);
+}
+.ic_category{
+    text-transform:uppercase;
+    font-size:11px;
+    letter-spacing:3px;
+    padding:5px;
+    margin:0px;
+}
+.ic_caption h3{
+    padding:0px 5px 5px 5px;
+    margin:0px;
+    font-size:18px;
+}
+.ic_text{
+    padding:5px;
+    margin:0px;
+    text-align:justify;
+    font-size:11px;
+
+}
+
+.img-thumbnail{
+    border: 1px solid #34FF19 !important;
+    background-color: #34FF19 !important;
+    color: #B20077 !important;
+}
+
+.msgsysteme-portfolio{
+    font-size:14px !important;
+    color: #B20077 !important;
+}
+
+.portfolio-img-theater{
+    margin-bottom: 10px;
+}

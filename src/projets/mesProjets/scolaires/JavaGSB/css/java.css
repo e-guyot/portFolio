@@ -1,0 +1,16 @@
+a {
+   color: #34FF19 !important;
+    font-size: 1vw !important;
+    font-weight: 700;; 
+     text-decoration: none; 
+     background-color: transparent; 
+}
+
+#img-triDep{
+	width: 200;
+}
+
+#android-photo{
+	width: 300;
+	margin-right: 10px;
+}

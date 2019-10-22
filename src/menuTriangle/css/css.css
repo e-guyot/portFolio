@@ -1,0 +1,46 @@
+body{
+	background-image: url(/portFolio_GUYOT/src/accueil/img/background/noisy_net/noisy_net.png)!important;
+}
+
+.navbar-toggler collapsed{
+    text-align: right;
+}
+.collapse navbar-collapse{
+    text-align: right;
+}
+
+.navbar-toggler-icon{
+    position: relative;
+    background-image: url(../photo/menu.png);
+    background-repeat: no-repeat ;
+    width: 2em!important;
+    height: 2em!important;
+}
+
+#navbarText{
+    text-align: -webkit-right;
+}
+
+.nav-link{
+    color: #34FF19 !important;
+}
+
+.text-portfolio p {
+    color: #B20077 !important;
+    font-size: 1vw !important;
+    text-align: justify;
+}
+
+.text-portfolio p span {
+    color: #34FF19 !important;
+    font-size: 1vw !important;
+    font-weight: 700;
+}
+
+#menu-fleche {
+    width:50!important;
+}
+
+#menu-home{
+    width:60!important;
+}

@@ -1,0 +1,134 @@
+body{
+	background-image: url(/portFolio_GUYOT/src/accueil/img/background/noisy_net/noisy_net.png)!important;
+}
+
+.competences-block{
+	margin-bottom: 15px;
+}
+
+.hidden {
+    position: absolute;
+    overflow: hidden;
+    width: 0;
+    height: 0;
+    pointer-events: none;
+}
+
+.btn-group-vertical, .skill-group-vertical{
+	position: relative;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	justify-content: center;
+	-ms-flex-pack: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	min-height: 100vh;
+	margin: 0 auto;
+}
+.skill-group-vertical{
+	font-family: 'Space Mono', monospace !important;
+}
+
+.content-skill div{
+	width: 100%;
+}
+
+.no-padding{
+	padding: 0!important;
+}
+
+.titre-portfolio{
+	text-align: center;
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+
+.titre-portfolio, .titre-portfolio-basique{
+	color: #34FF19 !important;
+}
+
+.progress-groupe a {
+	color: #34FF19 !important;
+}
+
+.progress-groupe{
+	margin-bottom: 5px;
+}
+
+.compet-titreLg{
+	padding-top: 50px;
+}
+
+.progress-bar{
+    background-color: #FF19B3!important;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.progress{
+    background-color:#B20077!important;
+    height: 2rem !important;
+}
+
+.compet-titrePrin{
+	color: #34FF19;
+	text-decoration: none;
+}
+
+.row{
+	margin-right: 0!important;
+	margin-left: 0!important;
+}
+
+/* pour l'affichage grand ecran */
+@media screen and (min-width: 50em) {
+	.titre-portfolio h1::before {
+		content: '';
+		position: absolute;
+		top: 0;
+		width: 25px;
+		height: 0.9em !important;
+		opacity: 0;
+		margin-top: 5px;
+		background: rgba(52,255,25,0.3) !important;
+		animation: blinkblink 0.4s cubic-bezier(0.5,0,1,1) infinite alternate !important;
+	}
+
+	.titre-portfolio h1{
+		font-size: 2.2vw !important;
+	}
+
+	.titre-protfolio-basique h2{
+		font-size: 1.8vw !important;
+	}
+}
+
+/* l'affichage petit ecran */
+@media screen and (max-width: 50em) {
+	.titre-portfolio h1::before {
+		content: '';
+		position: absolute;
+		top: 0;
+		width: 20px;
+		height: 24px !important;
+		opacity: 0;
+		margin-top: 3px;
+		background: rgba(52,255,25,0.3) !important;
+		animation: blinkblink 0.4s cubic-bezier(0.5,0,1,1) infinite alternate !important;
+	}
+
+	.titre-portfolio h1{
+		font-size: 26px !important;
+	}
+
+	.titre-protfolio-basique h2{
+		font-size: 22px !important;
+	}
+}
+
+.titre-portfolio h1 span{
+    margin-left: 30px;
+}
